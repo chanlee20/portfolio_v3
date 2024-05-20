@@ -3,7 +3,7 @@ import { RiMoonClearLine } from "react-icons/ri";
 
 export default function NavigationBar() {
   return (
-    <nav className="py-10 flex justify-end dark:text-white mr-6">
+    <nav className="sticky top-0 py-10 flex justify-end dark:text-white mr-6">
       <ul className="flex  items-center">
         <li>
           <RiMoonClearLine

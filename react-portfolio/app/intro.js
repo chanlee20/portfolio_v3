@@ -2,6 +2,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 import Image from "next/image";
 import TechStacks from "./tech-stack";
+import React from "react";
 
 export default function Intro() {
   return (

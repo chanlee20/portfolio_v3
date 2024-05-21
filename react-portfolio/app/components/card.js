@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import SectionTitle from "./section-title";
 
@@ -8,11 +9,11 @@ export default function Card({
   isProject = false,
   src,
   titleHeader,
-  content,
+  content="",
   description,
-  skills,
-  github_link,
-  project_link,
+  skills=[],
+  github_link="",
+  project_link="",
   objectFit = "fill",
 }) {
   return (

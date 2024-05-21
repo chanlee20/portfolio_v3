@@ -1,3 +1,4 @@
+import React from "react";
 import SectionTitle from "./components/section-title";
 
 export default function WorkExperience() {

@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "./components/card";
 
 export default function About() {
@@ -5,7 +6,6 @@ export default function About() {
     <div id="about" className="w-3/5 mx-auto">
       <Card
         imageFirst={true}
-        imageLessRounded={false}
         objectFit="cover"
         src="/avatar.jpeg"
         titleHeader="About me"

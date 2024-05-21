@@ -1,3 +1,4 @@
+import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
 export default function Footer() {

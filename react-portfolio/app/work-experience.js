@@ -74,7 +74,7 @@ export default function WorkExperience() {
 
   const EventCard = ({ heading, subHeading, date, description }) => {
     return (
-      <div className="flex flex-col gap-y-2 border shadow-md rounded-xl p-4">
+      <div className="flex flex-col gap-y-2 border shadow-md rounded-xl p-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-2xl">
         <div className="text-brown-rose font-bold text-lg border-b">
           {heading}
         </div>
@@ -92,7 +92,7 @@ export default function WorkExperience() {
     );
   };
   return (
-    <div className="w-1/2 mx-auto mb-64">
+    <div className="w-1/2 mx-auto mt-64">
       <SectionTitle
         title="Education + Work Experience"
         content="My Adventure So Far! 🐣"

@@ -2,10 +2,10 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center items-center mx-auto text-white gap-4 bg-thristle py-6">
+    <footer className="flex flex-col justify-center items-center mx-auto text-white gap-4 bg-thristle py-6 mt-64">
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-semibold"> Chan Lee </p>
-        <p className="italic"> Develop code to make imagination reality</p>
+        <p className="italic"> Writing code to make imagination a step closer to reality</p>
       </div>
 
       <div className="text-3xl flex justify-center gap-16 py-3 dark:text-gray-400">

@@ -2,7 +2,7 @@ import Card from "./components/card";
 
 export default function About() {
   return (
-    <div className="mb-64 w-3/5 mx-auto">
+    <div id="about" className="w-3/5 mx-auto">
       <Card
         imageFirst={true}
         imageLessRounded={false}

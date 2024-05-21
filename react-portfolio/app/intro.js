@@ -1,11 +1,12 @@
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 import Image from "next/image";
+import TechStacks from "./tech-stack";
 
 export default function Intro() {
   return (
-    <div className="text-white mb-64">
-      <div className="text-center p-10 py-10">
+    <div id="intro" className="text-white mb-64">
+      <div className="text-center ">
         <h2 className="text-5xl py-2 ">Chan Lee</h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
           Software Engineer
@@ -38,8 +39,11 @@ export default function Intro() {
             <AiFillInstagram />
           </a>
         </div>
-        <div className="mx-auto rounded-full w-72 h-72 relative overflow-hidden mt-10 max-w-72 max-h-72">
+        <div className="mx-auto rounded-full w-64 h-64 relative overflow-hidden mt-10 max-w-72 max-h-72">
           <Image src={"/profile.jpeg"} layout="fill" objectFit="cover" />
+        </div>
+        <div>
+           <TechStacks />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import About from "./about";
 import Footer from "./footer";
 import Intro from "./intro";
@@ -16,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon-16x16.ico" />
       </Head>
       <NavigationBar />
-      <Intro />
-      <About />
+      <Intro /> 
+      <About /> 
       <WorkExperience />
       <Project />
       <Footer />

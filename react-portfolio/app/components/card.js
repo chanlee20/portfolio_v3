@@ -14,18 +14,22 @@ export default function Card({
   github_link = "",
   project_link = "",
   objectFit = "fill",
-  isHoverable = true
+  isHoverable = true,
 }) {
   const [hovered, setHovered] = useState(false);
   return (
     <>
       <div
-        className={`flex justify-center gap-x-6 items-start mt-20 ${
+        className={`md:flex md:justify-center gap-x-6 md:items-start mt-20 ${
           imageFirst ? "flex-row" : "flex-row-reverse"
         }`}
       >
         <div
-          className={` rounded-md w-72 h-72 relative overflow-hidden max-w-72 max-h-72 basis-2/5 ${isHoverable ? 'transform hover:-translate-y-2 hover:shadow-2xl hover:duration-500' : ''}`}
+          className={` rounded-md w-72 h-72 relative overflow-hidden max-w-72 max-h-72 basis-2/5 hidden md:block ${
+            isHoverable
+              ? "transform hover:-translate-y-2 hover:shadow-2xl hover:duration-500"
+              : ""
+          }`}
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
         >
@@ -67,6 +71,24 @@ export default function Card({
                     {skill}
                   </p>
                 ))}
+              </div>
+              <div className="block md:hidden">
+                <div className="text-5xl flex gap-6 py-3 dark:text-gray-400 text-white">
+                  <a
+                    target="_blank"
+                    href={github_link}
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                  <a
+                    target="_blank"
+                    href={project_link}
+                    rel="noopener noreferrer"
+                  >
+                    <AiOutlineLink />
+                  </a>
+                </div>
               </div>
             </>
           ) : (

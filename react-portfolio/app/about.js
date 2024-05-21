@@ -3,7 +3,7 @@ import Card from "./components/card";
 
 export default function About() {
   return (
-    <div id="about" className="w-3/5 mx-auto">
+    <div id="about" className="w-5/6 md:w-3/5 mx-auto">
       <Card
         imageFirst={true}
         objectFit="cover"

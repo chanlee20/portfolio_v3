@@ -66,13 +66,13 @@ export default function WorkExperience() {
 
   const Circle = () => {
     return (
-      <div className="rounded-full w-4 h-4 bg-anti-flash-white mx-auto"></div>
+      <div className="rounded-full w-4 h-4 bg-anti-flash-white mx-auto hidden md:block"></div>
     );
   };
 
   const Stick = () => {
     return (
-      <div className="rounded-t-full rounded-b-full w-2 h-full bg-anti-flash-white mx-8"></div>
+      <div className="rounded-t-full rounded-b-full w-0 md:w-2 h-full bg-anti-flash-white mx-8 hidden md:block"></div>
     );
   };
 
@@ -96,7 +96,7 @@ export default function WorkExperience() {
     );
   };
   return (
-    <div className="w-1/2 mx-auto mt-64" id="work-experience">
+    <div className="w-3/5 mx-auto mt-64" id="work-experience">
       <SectionTitle
         title="Education + Work Experience"
         content="My Adventure So Far! 🐣"
@@ -108,7 +108,7 @@ export default function WorkExperience() {
             <>
               <div
                 key={key}
-                className="grid grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto"
+                className="grid md:grid-cols-[1fr_auto_1fr] place-content-evenly items-center"
               >
                 {event.direction === "left" ? (
                   <EventCard

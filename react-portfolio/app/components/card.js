@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import SectionTitle from "./components/section-title";
+import SectionTitle from "./section-title";
 
 export default function Card({
   imageFirst,

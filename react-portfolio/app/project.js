@@ -1,9 +1,9 @@
-import Card from "./card";
+import Card from "./components/card";
 import SectionTitle from "./components/section-title";
 
 export default function Project() {
     return (
-        <div className="w-1/2 mx-auto">
+        <div className="w-1/2 mx-auto mb-64">
             <SectionTitle title="Projects" content="Discover Unique Projects I Have Worked On, 🧑🏻‍💻" />
             <Card
                 imageFirst={true}

@@ -14,7 +14,9 @@ export default function NavigationBar() {
         <li>
           <a
             className="bg-gradient-to-r from-anti-flash-white to-thristle text-white px-4 py-2 border-none rounded-md ml-8"
-            href="#"
+            href="/Chan_Lee_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
           </a>

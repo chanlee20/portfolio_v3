@@ -13,6 +13,8 @@ module.exports = {
         'anti-flash-white': '#E5E9EC',
         'thristle': '#DDCAD9',
         'brown-rose': '#7C616C',
+        'azure': '#EAFDF8',
+        'mountbatten-pink': '#A7899C'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

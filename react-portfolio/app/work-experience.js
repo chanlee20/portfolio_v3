@@ -93,7 +93,7 @@ export default function WorkExperience() {
     );
   };
   return (
-    <div className="w-1/2 mx-auto mt-64">
+    <div className="w-1/2 mx-auto mt-64" id="work-experience">
       <SectionTitle
         title="Education + Work Experience"
         content="My Adventure So Far! 🐣"

@@ -40,7 +40,7 @@ export default function Intro() {
           </a>
         </div>
         <div className="mx-auto rounded-full w-64 h-64 relative overflow-hidden mt-10 max-w-72 max-h-72">
-          <Image src={"/profile.jpeg"} layout="fill" objectFit="cover" />
+          <Image src={"/profile.jpeg"} layout="fill" objectFit="cover" alt="profile picture"/>
         </div>
         <div>
            <TechStacks />

@@ -23,7 +23,7 @@ export default function Card({
         }`}
       >
         <div className=" rounded-md w-72 h-72 relative overflow-hidden max-w-72 max-h-72 basis-2/5">
-          <Image src={src} layout="fill" objectFit={objectFit} />
+          <Image src={src} layout="fill" objectFit={objectFit} alt="image"/>
         </div>
         <div className="basis-3/5">
           <SectionTitle title={titleHeader} content={content} />

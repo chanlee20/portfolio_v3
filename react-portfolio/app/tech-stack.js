@@ -22,7 +22,7 @@ export default function TechStacks() {
             key={key}
             className="mx-2 w-12 h-12 relative overflow-hidden max-w-12 max-h-12"
           >
-            <Image src={src} layout="fill" objectFit="fill" />
+            <Image src={src} layout="fill" objectFit="fill" alt="tech image"/>
           </div>
         ))}
       </div>

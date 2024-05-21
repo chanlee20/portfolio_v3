@@ -37,8 +37,9 @@ export default function DropDownBtn() {
 
       <div className="w-44 group-hover:block dropdown-menu absolute hidden h-auto right-0 origin-top-right bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-md shadow-lg">
         <ul className="py-1 top-0">
-          {options.map((option) => (
+          {options.map((option,key) => (
             <Option
+                key={key}
               title={option.title}
               link={option.link}
               icon={option.icon}

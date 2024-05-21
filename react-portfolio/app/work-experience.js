@@ -56,7 +56,10 @@ export default function WorkExperience() {
       heading: "Graduate of Bachelor of Science in Computer Science",
       subHeading: "Washington University in St. Louis",
       date: "August 2020 ~ May 2024",
-      description: ["GPA: 3.87", "Member of Korean International Student Society, Association for Computing Machinery, Chess Club"],
+      description: [
+        "GPA: 3.87",
+        "Member of Korean International Student Society, Association for Computing Machinery, Chess Club",
+      ],
       direction: "right",
     },
   ];

@@ -6,7 +6,10 @@ export default function Footer() {
     <footer className="flex flex-col justify-center items-center mx-auto text-white gap-4 bg-thristle py-6 mt-64">
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl font-semibold"> Chan Lee </p>
-        <p className="italic"> Writing code to make imagination a step closer to reality</p>
+        <p className="italic">
+          {" "}
+          Writing code to make imagination a step closer to reality
+        </p>
       </div>
 
       <div className="text-3xl flex justify-center gap-16 py-3 dark:text-gray-400">
@@ -33,8 +36,9 @@ export default function Footer() {
         </a>
       </div>
 
-      <div>
+      <div className="text-center">
         <p> &#169; Chan Lee 2024 All Rights Reserved </p>
+        <p className="italic text-sm"> Built by NextJS, Deployed by Vercel </p>
       </div>
     </footer>
   );
